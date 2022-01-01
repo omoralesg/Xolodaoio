@@ -1,0 +1,11 @@
+.ipad-pro-11-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  min-height: 1194px;
+  mix-blend-mode: multiply;
+  padding: 1.0px 0;
+  width: 834px;
+}
+

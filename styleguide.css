@@ -1,0 +1,22 @@
+:root { 
+  --black: #000000;
+  --black-2: #00000008;
+  --blue-charcoal: #000926;
+  --licorice: #111111;
+  --mercury: #e4e4e4;
+  --mirage: #0d152d;
+  --pale-sky: #6e7282;
+  --white: #ffffff;
+ 
+  --font-size-m: 28px;
+  --font-size-s: 24px;
+  --font-size-xs: 14px;
+  --font-size-xxs: 13px;
+  --font-size-xxxs: 12px;
+  --font-size-xxxxs: 9px;
+  --font-size-xxxxxs: 5px;
+ 
+  --font-family-libre_franklin: "Libre Franklin", Helvetica;
+  --font-family-poppins: "Poppins", Helvetica;
+  --font-family-riffic_free-bold: "Riffic Free-Bold", Helvetica;
+}

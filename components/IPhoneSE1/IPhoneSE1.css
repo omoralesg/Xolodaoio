@@ -1,0 +1,10 @@
+.iphone-se-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  min-height: 568px;
+  mix-blend-mode: multiply;
+  width: 320px;
+}
+

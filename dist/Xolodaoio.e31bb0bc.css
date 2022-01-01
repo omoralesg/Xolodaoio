@@ -1,0 +1,92 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Libre+Franklin:400|Poppins:400,700");
+@font-face {
+  font-family: "Riffic Free-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/RifficFree-Bold.d14a3d6b.ttf") format("truetype");
+}
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root { 
+  --black: #000000;
+  --black-2: #00000008;
+  --blue-charcoal: #000926;
+  --licorice: #111111;
+  --mercury: #e4e4e4;
+  --mirage: #0d152d;
+  --pale-sky: #6e7282;
+  --white: #ffffff;
+ 
+  --font-size-m: 28px;
+  --font-size-s: 24px;
+  --font-size-xs: 14px;
+  --font-size-xxs: 13px;
+  --font-size-xxxs: 12px;
+  --font-size-xxxxs: 9px;
+  --font-size-xxxxxs: 5px;
+ 
+  --font-family-libre_franklin: "Libre Franklin", Helvetica;
+  --font-family-poppins: "Poppins", Helvetica;
+  --font-family-riffic_free-bold: "Riffic Free-Bold", Helvetica;
+}
+
+.ipad-pro-11-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  min-height: 1194px;
+  mix-blend-mode: multiply;
+  padding: 1.0px 0;
+  width: 834px;
+}
+
+
+.desktop-1 {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 1024px;
+  min-width: 1440px;
+  position: relative;
+  width: 100%;
+}
+
+
+.iphone-se-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  min-height: 568px;
+  mix-blend-mode: multiply;
+  width: 320px;
+}
+
+
+
+/*# sourceMappingURL=/Xolodaoio.e31bb0bc.css.map */
